@@ -1,0 +1,48 @@
+oha -z 60s -c 50 http://34.120.3.231/process-image   
+                                                                                                                    
+Summary:
+  Success rate: 100.00%
+  Total:        6.0003 10 sec
+  Slowest:      4.2938 10 sec
+  Fastest:      1.0484 10 sec
+  Average:      2.9456 10 sec
+  Requests/sec: 2.1499
+
+  Total data:   9.53 KiB
+  Size/request: 123 B
+  Size/sec:     162 B
+
+Response time histogram:
+  1.048 10 sec [1]  |■■
+  1.373 10 sec [1]  |■■
+  1.697 10 sec [1]  |■■
+  2.022 10 sec [2]  |■■■■
+  2.347 10 sec [14] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  2.671 10 sec [16] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  2.996 10 sec [10] |■■■■■■■■■■■■■■■■■■■■
+  3.320 10 sec [7]  |■■■■■■■■■■■■■■
+  3.645 10 sec [8]  |■■■■■■■■■■■■■■■■
+  3.969 10 sec [9]  |■■■■■■■■■■■■■■■■■■
+  4.294 10 sec [10] |■■■■■■■■■■■■■■■■■■■■
+
+Response time distribution:
+  10.00% in 2.1001 10 sec
+  25.00% in 2.4084 10 sec
+  50.00% in 2.7682 10 sec
+  75.00% in 3.6158 10 sec
+  90.00% in 4.0629 10 sec
+  95.00% in 4.2511 10 sec
+  99.00% in 4.2938 10 sec
+  99.90% in 4.2938 10 sec
+  99.99% in 4.2938 10 sec
+
+
+Details (average, fastest, slowest):
+  DNS+dialup:   0.0035 10 sec, 0.0022 10 sec, 0.0039 10 sec
+  DNS-lookup:   0.0000 10 sec, 0.0000 10 sec, 0.0000 10 sec
+
+Status code distribution:
+  [200] 79 responses
+
+Error distribution:
+  [50] aborted due to deadline
